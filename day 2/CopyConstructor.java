@@ -7,7 +7,6 @@ public class CopyConstructor {
         this.name = name;
     }
 
-    // Copy Constructor
     CopyConstructor(CopyConstructor s) {
         id = s.id;
         name = s.name;
