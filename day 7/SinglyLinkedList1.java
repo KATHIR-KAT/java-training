@@ -13,7 +13,7 @@ class Node {
 class SinglyLinkedList {
     Node head;
 
-    // Insert at the end
+  
     void insert(int data) {
         Node newNode = new Node(data);
 
@@ -31,7 +31,7 @@ class SinglyLinkedList {
         temp.next = newNode;
     }
 
-    // Display the linked list
+   
     void display() {
         if (head == null) {
             System.out.println("Linked List is Empty.");
